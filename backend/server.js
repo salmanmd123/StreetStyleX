@@ -21,7 +21,8 @@ connectCloudinary();
 app.use(express.json());
 
 app.use(cors({
-  origin: "https://streetstylex.vercel.app"
+ "http://localhost:5173",
+  "https://streetstylex.vercel.app"
 }));
 
 // API endpoints
