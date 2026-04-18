@@ -8,6 +8,12 @@ import productRouter from "./routes/productRoute.js"
 import cartRouter from "./routes/cartRoute.js"
 import orderRouter from "./routes/orderRoute.js"
 
+import cors from "cors";
+
+app.use(cors({
+  origin: "https://streetstylex.vercel.app"
+}));
+
 // App Config
 const app = express()
 const port = process.env.PORT || 4000
