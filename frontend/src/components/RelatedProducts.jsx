@@ -1,6 +1,6 @@
 import React, { useContext, useEffect, useState } from 'react'
 import { ShopContext } from '../context/ShopContext'
-import ProductItem from './productitem';
+import ProductItem from './ProductItem';
 import Title from './Title';
 
 const RelatedProducts = ({ category, subCategory }) => {
