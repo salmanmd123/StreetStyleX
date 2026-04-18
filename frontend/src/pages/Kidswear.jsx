@@ -2,7 +2,7 @@ import React, { useContext, useEffect, useState } from 'react'
 import { ShopContext } from '../context/ShopContext';
 import { assets } from '../assets/frontend_assets/assets';
 import Title from '../components/Title';
-import ProductItem from '../components/productitem';
+import ProductItem from '../components/Productitem';
 
 const Kidswear = () => {
   const { products, search, showSearch } = useContext(ShopContext);
