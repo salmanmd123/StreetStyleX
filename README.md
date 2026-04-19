@@ -1,3 +1,5 @@
+
+```md
 # StreetStyleX - MERN Stack eCommerce Website
 
 A full-stack eCommerce web application built using the MERN stack (MongoDB, Express.js, React.js, Node.js).  
@@ -59,6 +61,8 @@ It includes user authentication, product management, cart functionality, order p
 
 ## 📁 Project Structure
 
+```
+
 /frontend
 ├── components
 ├── pages
@@ -73,91 +77,111 @@ It includes user authentication, product management, cart functionality, order p
 ├── middleware
 ├── server.js
 
+````
 
 ---
 
 ## ⚙️ Installation & Setup
 
 ### 1. Clone the repository
-bash
-git clone https://github.com/your-username/mern-ecommerce.git
+```bash
+git clone https://github.com/salmanmd123/streetstylex.git
+````
 
+---
 
-2. Setup Backend
+### 2. Setup Backend
+
+```bash
 cd backend
 npm install
+```
 
-Create .env file:
+Create `.env` file:
 
+```env
 MONGO_URI=your_mongodb_connection
 JWT_SECRET=your_secret_key
 STRIPE_SECRET_KEY=your_stripe_key
 RAZORPAY_KEY=your_razorpay_key
+```
 
 Run backend:
-npm start server
 
-
-3. Setup Frontend
-cd frontend
-npm install
+```bash
 npm start
-
-
-
-💳 Payment Integration
-Stripe is used for international card payments
-Razorpay is used for Indian payment methods
-Cash on Delivery supported as fallback option
-
-
-🔐 Authentication
-JWT-based authentication
-Protected routes for users and admin
-Secure login & registration system
-
-
-📦 API Features
-RESTful API architecture
-Product APIs
-User APIs
-Order APIs
-Admin APIs
-
-
-
-📊 Key Learnings
-Full-stack MERN development workflow
-Authentication and authorization handling
-Payment gateway integration
-API development and integration
-Deployment using Vercel
-
-
-
-⚠️ Challenges Faced
-Managing frontend-backend data flow
-Handling payment gateway verification
-Structuring MongoDB database efficiently
-Securing admin routes
-Deployment configuration on Vercel
-
-
-👨‍💻 Author
-Mohammed Salman
-
-GitHub: https://github.com/salmanmd123
-LinkedIn: https://www.linkedin.com/in/mohammed-salman-b5989b297
-
-
-📜 License
-
-This project is licensed under the MIT License.
-
+```
 
 ---
 
-If you want, I can also:
-- customize it with your **real name + GitHub + screenshots**
-- add a **fancy GitHub banner + badges**
-- or convert it into a **portfolio project card description**
+### 3. Setup Frontend
+
+```bash
+cd frontend
+npm install
+npm start 
+```
+
+---
+
+## 💳 Payment Integration
+
+* Stripe is used for international card payments
+* Razorpay is used for Indian payment methods
+* Cash on Delivery supported as fallback option
+
+---
+
+## 🔐 Authentication
+
+* JWT-based authentication
+* Protected routes for users and admin
+* Secure login & registration system
+
+---
+
+## 📦 API Features
+
+* RESTful API architecture
+* Product APIs
+* User APIs
+* Order APIs
+* Admin APIs
+
+---
+
+## 📊 Key Learnings
+
+* Full-stack MERN development workflow
+* Authentication and authorization handling
+* Payment gateway integration
+* API development and integration
+* Deployment using Vercel
+
+---
+
+## ⚠️ Challenges Faced
+
+* Managing frontend-backend data flow
+* Handling payment gateway verification
+* Structuring MongoDB database efficiently
+* Securing admin routes
+* Deployment configuration on Vercel
+
+---
+
+## 👨‍💻 Author
+
+*Mohammed Salman**
+
+* GitHub: https://github.com/salmanmd123
+* LinkedIn: https://www.linkedin.com/in/mohammed-salman-b5989b297
+
+---
+
+## 📜 License
+
+This project is licensed under the MIT License.
+
+```
+
