@@ -1,5 +1,5 @@
 
-```md
+
 # StreetStyleX - MERN Stack eCommerce Website
 
 A full-stack eCommerce web application built using the MERN stack (MongoDB, Express.js, React.js, Node.js).  
@@ -59,7 +59,7 @@ It includes user authentication, product management, cart functionality, order p
 
 ---
 
-## 📁 Project Structure
+ 📁 Project Structure
 
 ```
 
