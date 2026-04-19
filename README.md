@@ -84,9 +84,10 @@ It includes user authentication, product management, cart functionality, order p
 ## ⚙️ Installation & Setup
 
 ### 1. Clone the repository
+
 ```bash
 git clone https://github.com/salmanmd123/streetstylex.git
-````
+```
 
 ---
 
