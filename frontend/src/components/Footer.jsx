@@ -32,7 +32,7 @@ const Footer = () => {
             <div>
                 <hr />
                 <p className='py-5 text-sm text-center'>&copy; Copyright 2025@ StreetStyleX.com - All Rights Reserved.</p>
-                                <p className='text-sm text-center'>Made with ❤️ by Mohammed Salman</p>
+                                <p className='text-sm text-center'>Made with ❤️ </p>
             </div>
 
         </div>
