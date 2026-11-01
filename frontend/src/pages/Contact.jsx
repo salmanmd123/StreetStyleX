@@ -15,9 +15,9 @@ const Contact = () => {
         <div className='flex flex-col justify-center items-start gap-6'>
           <p className='font-semibold text-xl text-gray-600'>Our Store</p>
           <p className='text-gray-500'>HITEC City, Hyderabad <br /> Telangana, India</p>
-          <p className='text-gray-500'>Tel: +91 9876543210 <br /> Email: contact@streetstylex.com </p>
+          <p className='text-gray-500'>Tel: +919848974790 <br /> Email: contact@streetstylex.com </p>
           <p className='font-semibold text-xl text-gray-600'>OWNERS</p>
-          <p className='text-gray-500'> Mohammed <br /> +91 9876543210 </p>
+          <p className='text-gray-500'> Mohammed Salman <br /> +91 98489 74790 </p>
         </div>
       </div>
       <NewsletterBox />
